@@ -1,0 +1,23 @@
+.product-card {
+    &__image-wrap {
+        padding-top: 80%;
+        position: relative;
+    }
+
+    &__image {
+        max-width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: block;
+        object-position: center;
+        object-fit: contain;
+    }
+
+    &__badges {
+        bottom: 1rem;
+        position: relative;
+    }
+}
